@@ -18,6 +18,13 @@
 </head>
 
 <body>
+
+
+  <script>
+    const theme = localStorage.getItem('darkMode') || 'disabled';
+    document.documentElement.dataset.theme = theme;
+  </script>
+
   <header>
     <nav class="nav main-nav container">
       <a class='site-title' href=''>Badr Elkarfi</a>
@@ -60,8 +67,7 @@
           <ion-icon aria-hidden="true" name="logo-github" title="GitHub"></ion-icon>
         </a>
 
-        <a class="icon-link" href="" target="_blank" rel="noopener"
-          aria-label="Visit LinkedIn profile">
+        <a class="icon-link" href="" target="_blank" rel="noopener" aria-label="Visit LinkedIn profile">
           <ion-icon aria-hidden="true" name="logo-linkedin" title="LinkedIn"></ion-icon>
         </a>
 
@@ -89,7 +95,8 @@
               <a>REST API insight system</a>
               (<a href="https://github.com/elkarfi/REST-API-insight-system" target="_blank" rel="noopener">src</a>):
             </span>
-            API qui permet aux utilisateurs de recevoir, d'envoyer et d'analyser des enquêtes (Django Rest/Docker/PostgreSQL)
+            API qui permet aux utilisateurs de recevoir, d'envoyer et d'analyser des enquêtes (Django
+            Rest/Docker/PostgreSQL)
           </li>
           <li>
             <span class="list-start">
