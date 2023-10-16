@@ -18,11 +18,6 @@
 
 <body>
 
-  <script>
-    const theme = localStorage.getItem('darkMode') || 'disabled';
-    document.documentElement.dataset.theme = theme;
-  </script>
-  
   <header>
     <nav class="nav main-nav container">
       <a class='site-title' href=''>Badr Elkarfi</a>
@@ -38,7 +33,7 @@
 
     <section class="hero section">
       <div class="avatar-title">
-        <img class="avatar" src="" alt="Placeholder image" width="75" height="75">
+        <!-- <img class="avatar" src="static/images/Profile.jpg" alt="Placeholder image" width="75" height="75"> -->
         <h1>Hi, I'm Badr.</h1>
       </div>
 
@@ -64,8 +59,7 @@
           <ion-icon aria-hidden="true" name="logo-github" title="GitHub"></ion-icon>
         </a>
 
-        <a class="icon-link" href="" target="_blank" rel="noopener"
-          aria-label="Visit LinkedIn profile">
+        <a class="icon-link" href="" target="_blank" rel="noopener" aria-label="Visit LinkedIn profile">
           <ion-icon aria-hidden="true" name="logo-linkedin" title="LinkedIn"></ion-icon>
         </a>
 
@@ -74,7 +68,7 @@
           <ion-icon aria-hidden="true" name="logo-discord" title="Discord"></ion-icon>
         </a>
 
-        <a class="icon-link" class="cv" href="/resume.pdf"> Résumé </a>
+        <a class="icon-link" class="cv" href="PDF/"> Résumé as PDF </a>
 
       </div>
 
@@ -92,7 +86,7 @@
       <ul>
         <li>
           <span class="list-start">
-            <a>REST API insight system</a>
+            <a>REST API Insight System</a>
             (<a href="https://github.com/elkarfi/REST-API-insight-system" target="_blank" rel="noopener">src</a>):
           </span>
           Dockerized API allows users to receive, send, and analyze surveys (Django Rest/Docker/PostgreSQL)
@@ -120,6 +114,14 @@
             </span>
             A weather app that forecasts information for a specific location (PHP/Mysql)
           </li>
+          <li>
+            <span class="list-start">
+              <a>Speech Emotion Recognition </a>
+              (<a href="https://github.com/elkarfi/speech_emotion_recognition" target="_blank" rel="noopener">src</a>):
+            </span>
+            A neural network models for detecting different emotions from audio speeches. (Deep Learning, CNN, MLP,
+            Python)
+          </li>
         </ul>
       </div>
     </section>
@@ -133,19 +135,19 @@
         <ul>
           <li>
             <span class="list-start">Languages: </span>
-            HTML, CSS, JavaScript, Sass/SCSS, Python, SQL
+            HTML, CSS, JavaScript, Java, Python, SQL, Bash
           </li>
           <li>
             <span class="list-start">Languages (Secondary): </span>
-            Go, PHP, TypeScript, C, Bash, Markdown
+            Go, PHP, TypeScript, C, Markdown
           </li>
           <li>
             <span class="list-start">Frameworks: </span>
-            Django, Node.js, React.js, Tailwindcss
+            Django, JavaEE, Tailwindcss, Bootstrap 5 
           </li>
           <li>
             <span class="list-start">Frameworks (Secondary): </span>
-            Flask, FastAPI
+            Node.js, React.js
           </li>
           <li>
             <span class="list-start">Hosting/Email: </span>
@@ -157,7 +159,6 @@
           </li>
         </ul>
       </div>
-    </section>
     </section>
   </main>
   <footer>
